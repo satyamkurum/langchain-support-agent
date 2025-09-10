@@ -24,14 +24,22 @@ This project implements a customer support assistant powered by LangChain and Go
    python -m venv venv
   
 2. On Windows
+```bash
 venv\Scripts\activate
-   On Mac/Linux
 source venv/bin/activate
+```
 
 
-3. pip install -r requirements.txt
+4.
+```bash 
+    pip install -r requirements.txt
+```
 
-4. GOOGLE_API_KEY=your_api_key        
+5.
+```bash
+ GOOGLE_API_KEY=your_api_key
+```  
+```bash
+6. streamlit run app.py
 
-5. streamlit run app.py
 
